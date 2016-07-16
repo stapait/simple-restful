@@ -1,0 +1,32 @@
+{
+  "name": "simple-restful",
+  "version": "0.0.1",
+  "description": "A simple Node.js RESTful API with Redis",
+  "main": "lib/app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stapait/simple-restful.git"
+  },
+  "author": "Fabio Stapait Pedarnig",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stapait/simple-restful/issues"
+  },
+  "homepage": "https://github.com/stapait/simple-restful#readme",
+  "dependencies": {
+    "chai": "3.5.0",
+    "express": "4.14.0",
+    "jshint": "2.9.2",
+    "lodash": "4.13.1",
+    "mocha": "2.5.3",
+    "redis": "2.6.2",
+    "sinon": "1.17.4",
+    "winston": "2.2.0"
+  }
+}
